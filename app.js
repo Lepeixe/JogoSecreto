@@ -55,8 +55,8 @@ function reiniciarJogo() {
     numeroSecreto = gerarNumeroAleatorio();
     limparCampo();
     tentativas = 1;
-    exibirMensagemInicial();
-    exibirMensagemInicial();
+   // exibirMensagemInicial();
+   // exibirMensagemInicial();
     document.getElementById ('reiniciar').setAttribute('disabled', true);
 }
 
